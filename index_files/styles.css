@@ -421,7 +421,7 @@ summary {
 }
 
 .u-color-gold {
-    color: #b6965e
+    color: #00FFEF
 }
 
 .u-color-dark-gold {
@@ -465,7 +465,7 @@ summary {
 }
 
 .u-bg-gold {
-    background-color: #b6965e
+    background-color: #00FFEF
 }
 
 .u-bg-dark-gold {
@@ -699,7 +699,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .btn {
     align-items: center;
-    background-color: #b6965e;
+    background-color: #00FFEF;
     border-radius: 100px;
     display: inline-flex;
     font-size: 16px;
@@ -737,14 +737,14 @@ h1,h2,h3,h4,h5,h6 {
 
 @media (hover: hover) {
     .btn.--light:hover {
-        background-color:#b6965e
+        background-color:#00FFEF
     }
 }
 
 .btn.--reverse {
     background: #0000;
-    border: 1px solid #b6965e;
-    color: #b6965e;
+    border: 1px solid #00FFEF;
+    color: #00FFEF;
     transition: border .15s linear,color .15s linear,background .15s linear
 }
 
@@ -961,7 +961,7 @@ h1,h2,h3,h4,h5,h6 {
 .form button[type=submit] {
     align-items: center;
     background-color: #e9e5e2;
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='15' height='14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m8.14 1.703 5.641 5.641-2.82 2.82-2.82 2.82M12.613 7.344h-12' stroke='%23B6965E' stroke-width='1.2' stroke-linecap='square' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='15' height='14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m8.14 1.703 5.641 5.641-2.82 2.82-2.82 2.82M12.613 7.344h-12' stroke='%2300FFEF' stroke-width='1.2' stroke-linecap='square' stroke-linejoin='round'/%3E%3C/svg%3E");
     background-position: right 18px center;
     background-repeat: no-repeat;
     border-color: #000000;
@@ -1863,7 +1863,7 @@ h1,h2,h3,h4,h5,h6 {
 
 @media (hover: hover) {
     .text-link:focus,.text-link:hover {
-        color:#b6965e
+        color:#00FFEF
     }
 }
 
@@ -1884,7 +1884,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .text-link__icon svg * {
-    stroke: #b6965e
+    stroke: #00FFEF
 }
 
 .text-link.--career {
@@ -1939,7 +1939,7 @@ h1,h2,h3,h4,h5,h6 {
 
 @media (hover: hover) {
     .text-link.--career:focus,.text-link.--career:hover {
-        color:#b6965e
+        color:#00FFEF
     }
 }
 
