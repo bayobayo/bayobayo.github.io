@@ -1214,7 +1214,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .hero__text-inner p {
-    color: #999a9b!important;
+    color: #000000!important;
     letter-spacing: .01em;
     line-height: 1.4
 }
