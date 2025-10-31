@@ -43,6 +43,10 @@ b,strong {
     font-weight: bolder
 }
 
+.hero__text-inner {
+    padding-bottom: 10px;
+}
+
 code,kbd,samp {
     font-family: monospace,monospace;
     font-size: 1em
