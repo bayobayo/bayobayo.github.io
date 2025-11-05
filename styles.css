@@ -43,6 +43,10 @@ b,strong {
     font-weight: bolder
 }
 
+.hero__text-inner {
+    padding-bottom: 10px;
+}
+
 code,kbd,samp {
     font-family: monospace,monospace;
     font-size: 1em
@@ -413,19 +417,19 @@ summary {
 }
 
 .u-color-navy {
-    color: #102027
+    color: #000000
 }
 
 .u-color-navy-02 {
-    color: #102d35
+    color: #00FFEF;
 }
 
 .u-color-gold {
-    color: #b6965e
+    color: #00FFEF
 }
 
 .u-color-dark-gold {
-    color: #746547
+    color: #00FFEF;
 }
 
 .u-color-beige-01 {
@@ -457,7 +461,7 @@ summary {
 }
 
 .u-bg-navy {
-    background-color: #102027
+    background-color: #000000
 }
 
 .u-bg-navy-02 {
@@ -465,7 +469,7 @@ summary {
 }
 
 .u-bg-gold {
-    background-color: #b6965e
+    background-color: #00FFEF
 }
 
 .u-bg-dark-gold {
@@ -473,11 +477,11 @@ summary {
 }
 
 .u-bg-beige-01 {
-    background-color: #e9e5e2
+    background-color: #000000;
 }
 
 .u-bg-beige-02 {
-    background-color: #dad6d0
+    background-color: #000000;
 }
 
 .u-bg-beige-03 {
@@ -642,7 +646,7 @@ img.is-loading.lazygradient .lazyloaded,img.lazyload.lazygradient .lazyloaded {
 body,html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #102027
+    background-color: #000000;
 }
 
 html {
@@ -651,7 +655,7 @@ html {
 }
 
 body {
-    color: #111518;
+    color: #fff;
     font-family: Aeonik,Helvetica Neue,Helvetica,sans-serif;
     overflow-x: hidden
 }
@@ -699,7 +703,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .btn {
     align-items: center;
-    background-color: #b6965e;
+    background-color: #00FFEF;
+    color: #000000;
     border-radius: 100px;
     display: inline-flex;
     font-size: 16px;
@@ -710,7 +715,7 @@ h1,h2,h3,h4,h5,h6 {
 
 @media (hover: hover) {
     .btn:hover {
-        background-color:#dad6d0
+        background-color:#00FFEFF
     }
 }
 
@@ -732,19 +737,20 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .btn.--light {
-    background-color: #cacbc4
+    background-color: #00FFEF;
+    color: #000000;
 }
 
 @media (hover: hover) {
     .btn.--light:hover {
-        background-color:#b6965e
+        background-color:#00FFEF
     }
 }
 
 .btn.--reverse {
     background: #0000;
-    border: 1px solid #b6965e;
-    color: #b6965e;
+    border: 1px solid #00FFEF;
+    color: #00FFEF;
     transition: border .15s linear,color .15s linear,background .15s linear
 }
 
@@ -915,12 +921,12 @@ h1,h2,h3,h4,h5,h6 {
 .form input {
     border-color: #d3d3d3;
     box-shadow: none!important;
-    color: #102027;
+    color: #000000;
     padding: 16px
 }
 
 .form input:focus {
-    border-color: #102027
+    border-color: #000000
 }
 
 .form input::placeholder {
@@ -928,7 +934,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .form .fui-instructions {
-    color: #102027
+    color: #000000
 }
 
 .form .fui-alert {
@@ -941,7 +947,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .form .fui-alert-success p {
-    color: #102027
+    color: #000000
 }
 
 .form .fui-type-file-upload .fui-input-wrapper {
@@ -961,13 +967,13 @@ h1,h2,h3,h4,h5,h6 {
 .form button[type=submit] {
     align-items: center;
     background-color: #e9e5e2;
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='15' height='14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m8.14 1.703 5.641 5.641-2.82 2.82-2.82 2.82M12.613 7.344h-12' stroke='%23B6965E' stroke-width='1.2' stroke-linecap='square' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='15' height='14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m8.14 1.703 5.641 5.641-2.82 2.82-2.82 2.82M12.613 7.344h-12' stroke='%2300FFEF' stroke-width='1.2' stroke-linecap='square' stroke-linejoin='round'/%3E%3C/svg%3E");
     background-position: right 18px center;
     background-repeat: no-repeat;
-    border-color: #102027;
+    border-color: #000000;
     border-radius: 100px;
     box-shadow: none;
-    color: #102027;
+    color: #000000;
     display: inline-flex;
     font-size: 16px;
     font-weight: 400;
@@ -978,13 +984,13 @@ h1,h2,h3,h4,h5,h6 {
 
 @media (hover: hover) {
     .form button[type=submit]:focus,.form button[type=submit]:hover {
-        background-color:#102027;
+        background-color:#000000;
         color: #fff
     }
 }
 
 .form button[type=submit].fui-loading {
-    background-color: #102027;
+    background-color: #000000;
     color: #fff
 }
 
@@ -1055,7 +1061,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .hero-anim__electricity:after {
     animation: fadeOut .5s linear 4.75s forwards;
-    background: linear-gradient(270deg,#102027,#10202700);
+    background: linear-gradient(270deg,#000000,#00000000);
     bottom: 0;
     content: "";
     position: absolute;
@@ -1076,7 +1082,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .hero-anim__transformed:after {
     animation: fadeOut .5s linear 4.75s forwards;
-    background: linear-gradient(90deg,#102027,#10202700);
+    background: linear-gradient(90deg,#000000,#00000000);
     bottom: 0;
     content: "";
     left: 0;
@@ -1214,9 +1220,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .hero__text-inner p {
-    color: #999a9b!important;
+    color: #fff!important;
     letter-spacing: .01em;
     line-height: 1.4
+    font-size: 24px;
 }
 
 @media (min-width: 49.375em) {
@@ -1506,7 +1513,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .site-footer__button {
-    background-color: #102027;
+    background-color: #000000;
     border-radius: 100%;
     height: 60px;
     left: 50%;
@@ -1648,7 +1655,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .site-header.--is-scrolled {
-    background-color: #102027;
+    background-color: #000000;
     transform: translateY(0)
 }
 
@@ -1663,18 +1670,18 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .site-header.--inner-pg svg .letter {
-    fill: #102027;
+    fill: #000000;
     transition: fill .3s linear
 }
 
 .site-header.--inner-pg: not(.--is-scrolled) .btn.--reverse {
-    border-color:#102027;
-    color: #102027
+    border-color:#000000;
+    color: #000000
 }
 
 .site-header.--inner-pg: not(.--is-scrolled) .btn:hover {
-    background-color:#102027;
-    border-color: #102027;
+    background-color:#000000;
+    border-color: #000000;
     color: #cacbc4
 }
 
@@ -1863,7 +1870,7 @@ h1,h2,h3,h4,h5,h6 {
 
 @media (hover: hover) {
     .text-link:focus,.text-link:hover {
-        color:#b6965e
+        color:#00FFEF
     }
 }
 
@@ -1884,11 +1891,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .text-link__icon svg * {
-    stroke: #b6965e
+    stroke: #00FFEF
 }
 
 .text-link.--career {
-    color: #102027;
+    color: #000000;
     font-weight: 400
 }
 
@@ -1939,7 +1946,7 @@ h1,h2,h3,h4,h5,h6 {
 
 @media (hover: hover) {
     .text-link.--career:focus,.text-link.--career:hover {
-        color:#b6965e
+        color:#00FFEF
     }
 }
 
